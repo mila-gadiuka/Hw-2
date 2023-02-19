@@ -64,9 +64,9 @@ public class Main {
         System.out.println("В компании всего " + totalEmployees + " сотрудников");
 
         //Задача 8.2
-        var totalEmployees1 = 94;
+        var totalEmployees1 = totalEmployees + 94;
         var workingHourPerEmployee1 = totalWorkingHours / totalEmployees1;
-        System.out.println("Если в компании " + totalEmployees1 + " сотрудников, то " + workingHourPerEmployee1 + " рабочих часов должно быть поделено на каждого");
+        System.out.println("Если в компании " + totalEmployees1 + " сотрудников, то по " + workingHourPerEmployee1 + " рабочих часов должно быть поделено между ними");
 
     }
 }
