@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        //Задача 1 Создаем переменные со значениями и выаодим их
+        //Задача 1 Создаем переменные со значениями и выаодим их.
         var dog = 8.0;
         System.out.println(dog);
         var cat = 3.6;
@@ -9,7 +9,7 @@ public class Main {
         var paper = 763789;
         System.out.println(paper);
 
-        //Задача 2 Увеличиваем каждое значение переменных на 4
+        //Задача 2 Увеличиваем каждое значение переменных на 4.
         dog = dog + 4;
         System.out.println(dog);
         cat = cat + 4;
@@ -17,7 +17,7 @@ public class Main {
         paper = paper + 4;
         System.out.println(paper);
 
-        //Задача 3 Уменьшиваем каждое значение переменной в зависимости от условия задачи
+        //Задача 3 Уменьшиваем каждое значение переменной в зависимости от условия задачи.
         dog = dog - 3.5;
         System.out.println(dog);
         cat = cat - 1.6;
@@ -25,7 +25,7 @@ public class Main {
         paper = paper - 7639;
         System.out.println(paper);
 
-        //Задача 4 Создать переменную и провести с ней предложенные операции
+        //Задача 4 Создать переменную и провести с ней предложенные операции.
         var friend = 19;
         System.out.println(friend);
         friend = friend + 2;
@@ -33,7 +33,7 @@ public class Main {
         friend = friend / 7;
         System.out.println(friend);
 
-        //Задача 5 Создать переменную и провести с ней предложенные операции
+        //Задача 5 Создать переменную и провести с ней предложенные операции.
         var frog = 3.5;
         System.out.println(frog);
         frog = frog * 10;
@@ -43,7 +43,7 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
 
-        //Задача 6
+        //Задача 6.
         var weightBox1 = 78.2;
         var weightBox2 = 82.7;
         var commonWeight = weightBox1 + weightBox2;
@@ -64,9 +64,9 @@ public class Main {
         System.out.println("В компании всего " + totalEmployees + " сотрудников");
 
         //Задача 8.2
-        var totalEmployees1 = 94;
+        var totalEmployees1 = totalEmployees + 94;
         var workingHourPerEmployee1 = totalWorkingHours / totalEmployees1;
-        System.out.println("Если в компании " + totalEmployees1 + " сотрудников, то " + workingHourPerEmployee1 + " рабочих часов должно быть поделено на каждого");
+        System.out.println("Если в компании " + totalEmployees1 + " сотрудников, то по " + workingHourPerEmployee1 + " рабочих часов должно быть поделено между ними");
 
     }
 }
